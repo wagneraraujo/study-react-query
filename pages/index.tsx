@@ -7,7 +7,7 @@ import { useCompany } from '../servicos/company'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  const { data: company } = useCompany('')
+  const { data: company } = useCompany()
   console.log(company)
 
   return (
