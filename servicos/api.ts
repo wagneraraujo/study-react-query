@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const baseURL = 'https://api-bkm-scheduling.herokuapp.com/v1'
+export const baseURL = 'https://api-bkm-scheduling.herokuapp.com/api/v1'
 // export const baseURL = 'https://prefeituras.herokuapp.com/'
 
 export const api = axios.create({
